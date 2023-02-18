@@ -1,6 +1,7 @@
-# Welcome to your CDK TypeScript project
+# S3PublicStack
 
-This is a blank project for CDK development with TypeScript.
+Creates an `S3` private stack from the contents of `./web`, which is then published via a public `CloudFront` `CDN`.
+By default it is done inside the `eu-central-1` region.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 

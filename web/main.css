@@ -1,0 +1,4 @@
+#css-content:after {
+  content: 'Multiple files also work!';
+  color: blue;
+}
